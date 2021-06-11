@@ -1,7 +1,7 @@
 body {
     background-color: rgb(92, 92, 92);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    background: url(./images/Background\ -\ Photo\ by\ Florian\ Olivo\ on\ Unsplash.jpg) center;
+    background: url("./images/Background\ -\ Photo\ by\ Florian\ Olivo\ on\ Unsplash.jpg") center;
   }
 
 #container {
