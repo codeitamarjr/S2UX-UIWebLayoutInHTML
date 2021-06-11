@@ -5,6 +5,7 @@ body {
 
 #container {
     height: 1000px ;
+    width: auto;
     background-color: whitesmoke;
     border: 2px solid powderblue;
     margin-left: auto;
@@ -14,10 +15,11 @@ body {
 #header {
     background-color: rgb(238, 240, 240);
     text-align: center;
+    padding: 20px;
 }
 
 #content {
-    background: aqua;
+    background-color: bisque;
     padding: 10px;
     display: flex;
 }
@@ -33,14 +35,10 @@ body {
     color: black;
 }
 
-#navigation li{
-    border: 3px solid #CE5937;
-    padding: 10px;
-}
-
 #main-content {
     float: right;
     width: 780px;
+    background-color: beige;
 }
 
 #footer {
@@ -52,19 +50,15 @@ body {
     padding: 10px;
 }
 
-    
   h1 {
     color: black;
   }
-
   h2 {
       color: black;
   }
-
   h3 {
     color: black;
   }
-
   p{
       color: black;
   }
