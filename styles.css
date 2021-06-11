@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(109, 109, 109);
+  }
+
+#container {
+    height: 1000px ;
+    background-color: whitesmoke;
+    border: 2px solid powderblue;
+    margin: 2px;
+    margin-left: auto;
+  }
+
+#header {
+    color: aqua;
+}
+
+#nav {
+    color: black;
+}
+
+#main {
+    color: black
+}
+
+#footer {
+    color: black;
+}
+
+    
+  h1 {
+    color: black;
+  }
+
+  h2 {
+      color: black;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  p{
+      color: black;
+  }
