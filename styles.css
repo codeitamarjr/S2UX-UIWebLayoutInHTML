@@ -1,7 +1,7 @@
 body {
     background-color: rgb(92, 92, 92);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    background: url(./images/Background_Photo_by_Florian_Olivo_on_Unsplash.jpg) center;
+    background-color: #555;
   } 
 
 #container {
@@ -22,9 +22,10 @@ body {
 }
 
 #content {
-    background-color: bisque;
+    background-color: rgb(31, 31, 31);
     padding: 10px;  
     display: flex;
+    
 }
 
 #navigation {
@@ -33,6 +34,8 @@ body {
     border: 3px solid #838383;
     text-align: center;
     padding: 10px;
+    border-radius: 25px;
+    color: whitesmoke;
 }
 
 #navigation ul{
@@ -40,11 +43,12 @@ body {
   padding: 5px;
   margin: 0;
   list-style-type: none;
+  
 }
 
 li a {
   display: block;
-  color:black;
+  color: whitesmoke;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -59,12 +63,14 @@ li a:hover {
     width: 780px;
     background-color: beige;
     padding: 10px;
+    border-radius: 25px;
+    margin-left: 10px;
 }
 
 #footer {
     clear: both;
     color: white;
-    text-align: center;
+    text-align:center;
     height: 256px;
     background-color: black;
     padding: 20px;
